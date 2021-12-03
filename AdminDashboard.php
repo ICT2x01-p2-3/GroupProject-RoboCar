@@ -117,35 +117,16 @@ $sql = 'SELECT * FROM car_status';
                     if ($result = $conn->query($sql)) {
                         while ($row = $result->fetch_assoc()) {
                             $connectivity = $row["connectivity"];
-                            $objectDistance = $row["objectDistance"] . " cm";
-                            $speed = $row["speed"] . " KM/H";
+                            $objectDistance = $row["objectDistance"];
+                            $speed = $row["speed"];
                             $datetime = $row["datetime"];
 						}
 					}
-					
-date_default_timezone_set('Asia/Singapore');
-$currentdatetime = date('Y-m-d H:i:s');
-$timeDatabase = strtotime($datetime);
-$timeNow = strtotime($currentdatetime);  
-$timeDiff = $timeNow - $timeDatabase;
-//echo $timeDiff; //Seconds
-
-if ($timeDiff <= 30) {
-	$connectivityInfo = "Stable / Connected";
-} else if ($timeDiff > 30 && $timeDiff <= 90) {
-	$connectivityInfo = "Unstable / Connecting";
-} else if ($timeDiff > 90) {
-	$connectivityInfo = "Disconnected";
-	$objectDistance = "NIL";
-	$speed = "NIL";
-}
-
 ?>
 
 <div style="padding-left:16px">
   <h2>Admin Dashboard</h2>
   <p>Welcome to P2-3's 2X01 Web Server</p>
-  <p>Here's some details about our car!</p>
 </div>
 
 
@@ -157,19 +138,19 @@ if ($timeDiff <= 30) {
         <div class="col-sm-3">
           <div class="well">
             <h4>Connectivity</h4>
-            <p><?php echo $connectivityInfo; ?></p> 
+            <p><?php echo $connectivity; ?></p> 
           </div>
         </div>
         <div class="col-sm-3">
           <div class="well">
-            <h4>Last Object Distance Detection</h4>
-            <p><?php echo $objectDistance; ?></p> 
+            <h4>Object Distance Detection</h4>
+            <p><?php echo $speed; ?> cm</p> 
           </div>
         </div>
         <div class="col-sm-3">
           <div class="well">
             <h4>Speed</h4>
-            <p><?php echo $speed; ?></p> 
+            <p><?php echo $speed; ?> KM/H</p> 
           </div>
         </div>
         <div class="col-sm-3">
