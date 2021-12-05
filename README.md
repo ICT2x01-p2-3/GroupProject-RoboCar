@@ -11,3 +11,26 @@ This project involves the development of a robotic car and a gamified feedback s
 
 ### How do we tackle such problems?
 To solve the problems, the team decided to spend at least 1 week researching and learning the features of the car and its API used for the web application. While the IS student will research the security features that can be implemented on the web application and wireless communication (wifi). The way forward for the second week is for the team to start integrating the car with the web application and setting up the web application.
+
+
+### BlackBox Testing
+
+
+
+
+
+### WhiteBox Testing
+Meaningful Classes chosen: Challenge.py and PinControl.py
+In python flask, the library used for whitebox testing is PyTest
+PyTest uses the library called "coverage" to run statement coverages using "assert" function
+
+How to use coverage:
+pip install coverage
+create a test case method (use assert)
+python -m coverage run <class.py> <secondclass.py>
+python -m coverage report (generates the report for statement coverage)
+
+Video Demo of WhiteBox Testing:
+
+https://user-images.githubusercontent.com/77533235/144742757-c337a35b-f1d8-460b-ad35-64b7e8af24c3.mp4
+
