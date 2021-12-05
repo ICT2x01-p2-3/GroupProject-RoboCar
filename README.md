@@ -14,9 +14,8 @@ To solve the problems, the team decided to spend at least 1 week researching and
 
 
 ### BlackBox Testing
-
-
-
+In blackbox testing, we tested our website using the SSD and test case list from our M2. 
+(Please refer to the blackboxtesting folder to view the video of the testing on the website)
 
 
 ### WhiteBox Testing
