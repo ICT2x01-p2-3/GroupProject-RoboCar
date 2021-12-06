@@ -17,7 +17,10 @@ To run the program, please install the following prerequisites, followed by runn
 ## BlackBox Testing
 In blackbox testing, we tested our website using the SSD and test case list from our M2. 
 (Please refer to the blackboxtesting folder to view the video of the testing on the website)
-[![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/RlCnHZbNePE&ab_channel=DanialAshidiq/0.jpg)](https://www.youtube.com/watch?v=RlCnHZbNePE&ab_channel=DanialAshidiq)
+
+
+
+[![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/RlCnHZbNePE/0.jpg)](https://www.youtube.com/watch?v=RlCnHZbNePE)
 
 ## WhiteBox Testing
 Meaningful Classes chosen: Challenge.py and PinControl.py
