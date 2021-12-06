@@ -43,6 +43,8 @@ Video Demo of WhiteBox Testing:
 
 https://user-images.githubusercontent.com/77533235/144742757-c337a35b-f1d8-460b-ad35-64b7e8af24c3.mp4
 
+## GitFlow
+![gitflow](https://user-images.githubusercontent.com/28554582/144847244-68bfd1c6-ff2a-4a51-ac45-0d7314de2277.png)
 
 ## Problems
 - Lack of Technical skills
