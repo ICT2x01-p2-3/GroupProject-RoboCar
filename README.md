@@ -13,7 +13,7 @@ This project involves the development of a robotic car and a gamified feedback s
 - pip
 - setuptools
 
-### Problems
+## Problems
 - Lack of Technical skills
 - insufficient information on the product
 - Defects from the car
@@ -24,12 +24,12 @@ This project involves the development of a robotic car and a gamified feedback s
 To solve the problems, the team decided to spend at least 1 week researching and learning the features of the car and its API used for the web application. While the IS student will research the security features that can be implemented on the web application and wireless communication (wifi). The way forward for the second week is for the team to start integrating the car with the web application and setting up the web application.
 
 
-### BlackBox Testing
+## BlackBox Testing
 In blackbox testing, we tested our website using the SSD and test case list from our M2. 
 (Please refer to the blackboxtesting folder to view the video of the testing on the website)
 
 
-### WhiteBox Testing
+## WhiteBox Testing
 Meaningful Classes chosen: Challenge.py and PinControl.py
 In python flask, the library used for whitebox testing is PyTest
 PyTest uses the library called "coverage" to run statement coverages using "assert" function
