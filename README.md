@@ -17,6 +17,9 @@ To run the program, please install the following prerequisites, followed by runn
 ## BlackBox Testing
 In blackbox testing, we tested our website using the SSD and test case list from our M2.
 
+![SSD](https://user-images.githubusercontent.com/77533235/144831738-c18013e1-bb03-4dc8-945f-b058516ee965.JPG)
+
+
 ![testcase1](https://user-images.githubusercontent.com/77533235/144831416-82312781-d6c2-4da7-b2eb-001443e28c77.JPG)
 
 ![testcase2](https://user-images.githubusercontent.com/77533235/144831418-41d8405f-6824-4ecd-afaa-564bf85d44cf.JPG)
