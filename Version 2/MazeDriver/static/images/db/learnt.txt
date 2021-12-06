@@ -1,0 +1,13 @@
+Cisco-SIPGateway IOS-15.2.4.M5
+
+
+router passwords https://www.routerpasswords.com 
+CIRT  https://cirt.net/passwords
+IP cams https://ipvm.com/reports/ip-cameras-default-passwords-directory
+
+
+google dorks
+
+internet archieve - time travel (or Mementos)
+
+export USER_TYPE=admin
